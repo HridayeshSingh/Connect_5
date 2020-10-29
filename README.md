@@ -1,5 +1,5 @@
 # Connect_5
-Connect 5 game
+Connect 5 game (Only for android)
 
 ### The rules of the game are as follows: 
 1. It's a 2 players game.
