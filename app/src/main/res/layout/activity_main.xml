@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/boardGridLayout"
+        android:layout_width="395dp"
+        android:layout_height="395dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/board5x52"
+        app:columnCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="5">
+
+        <ImageView
+            android:id="@+id/counterImageView0"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:onClick="dropIn"
+            android:tag="0"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/counterImageView1"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="4dp"
+            android:onClick="dropIn"
+            android:tag="1"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/counterImageView2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="4dp"
+            android:onClick="dropIn"
+            android:tag="2"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/counterImageView3"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="3dp"
+            android:onClick="dropIn"
+            android:tag="3"
+            app:layout_column="3"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/counterImageView4"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="3dp"
+            android:onClick="dropIn"
+            android:tag="4"
+            app:layout_column="4"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/counterImageView5"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginTop="4dp"
+            android:onClick="dropIn"
+            android:tag="5"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/counterImageView6"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:onClick="dropIn"
+            android:tag="6"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/counterImageView7"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:onClick="dropIn"
+            android:tag="7"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/counterImageView8"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="4dp"
+            android:onClick="dropIn"
+            android:tag="8"
+            app:layout_column="3"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/counterImageView9"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="4dp"
+            android:onClick="dropIn"
+            android:tag="9"
+            app:layout_column="4"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/counterImageView10"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginTop="3dp"
+            android:onClick="dropIn"
+            android:tag="10"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/counterImageView11"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="3dp"
+            android:onClick="dropIn"
+            android:tag="11"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/counterImageView12"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="3dp"
+            android:onClick="dropIn"
+            android:tag="12"
+            app:layout_column="2"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/counterImageView13"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:onClick="dropIn"
+            android:tag="13"
+            app:layout_column="3"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/counterImageView14"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:onClick="dropIn"
+            android:tag="14"
+            app:layout_column="4"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/counterImageView15"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginTop="3dp"
+            android:onClick="dropIn"
+            android:tag="15"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/counterImageView16"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="3dp"
+            android:onClick="dropIn"
+            android:tag="16"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/counterImageView17"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="3dp"
+            android:onClick="dropIn"
+            android:tag="17"
+            app:layout_column="2"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/counterImageView18"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:onClick="dropIn"
+            android:tag="18"
+            app:layout_column="3"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/counterImageView19"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:onClick="dropIn"
+            android:tag="19"
+            app:layout_column="4"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/counterImageView20"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginTop="4dp"
+            android:onClick="dropIn"
+            android:tag="20"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/counterImageView21"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:onClick="dropIn"
+            android:tag="21"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/counterImageView22"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:onClick="dropIn"
+            android:tag="22"
+            app:layout_column="2"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/counterImageView23"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="4dp"
+            android:onClick="dropIn"
+            android:tag="23"
+            app:layout_column="3"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/counterImageView24"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="9dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="4dp"
+            android:onClick="dropIn"
+            android:tag="24"
+            app:layout_column="4"
+            app:layout_row="4" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/winnerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginRight="177dp"
+        android:layout_marginBottom="85dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/boardGridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/playAgainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:onClick="playAgain"
+        android:text="PLAY AGAIN"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/winnerTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
